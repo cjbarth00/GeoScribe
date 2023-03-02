@@ -14,6 +14,8 @@
 		B0A9FA7629AD79E500E2E5E2 /* GeoScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9FA7529AD79E500E2E5E2 /* GeoScribeTests.swift */; };
 		B0A9FA8029AD79E500E2E5E2 /* GeoScribeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9FA7F29AD79E500E2E5E2 /* GeoScribeUITests.swift */; };
 		B0A9FA8229AD79E500E2E5E2 /* GeoScribeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9FA8129AD79E500E2E5E2 /* GeoScribeUITestsLaunchTests.swift */; };
+		B0A9FA9029B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0A9FA8E29B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld */; };
+		B0A9FA9229B02C2000E2E5E2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A9FA9129B02C2000E2E5E2 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		B0A9FA7B29AD79E500E2E5E2 /* GeoScribeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoScribeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A9FA7F29AD79E500E2E5E2 /* GeoScribeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoScribeUITests.swift; sourceTree = "<group>"; };
 		B0A9FA8129AD79E500E2E5E2 /* GeoScribeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoScribeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0A9FA8F29B02ABD00E2E5E2 /* GeoScribe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeoScribe.xcdatamodel; sourceTree = "<group>"; };
+		B0A9FA9129B02C2000E2E5E2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				B0A9FA6529AD79DE00E2E5E2 /* ContentView.swift */,
 				B0A9FA6729AD79E500E2E5E2 /* Assets.xcassets */,
 				B0A9FA6929AD79E500E2E5E2 /* GeoScribe.entitlements */,
+				B0A9FA8E29B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld */,
+				B0A9FA9129B02C2000E2E5E2 /* DataController.swift */,
 				B0A9FA6A29AD79E500E2E5E2 /* Preview Content */,
 			);
 			path = GeoScribe;
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A9FA9029B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld in Sources */,
+				B0A9FA9229B02C2000E2E5E2 /* DataController.swift in Sources */,
 				B0A9FA6629AD79DE00E2E5E2 /* ContentView.swift in Sources */,
 				B0A9FA6429AD79DE00E2E5E2 /* GeoScribeApp.swift in Sources */,
 			);
@@ -612,6 +620,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0A9FA8E29B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0A9FA8F29B02ABD00E2E5E2 /* GeoScribe.xcdatamodel */,
+			);
+			currentVersion = B0A9FA8F29B02ABD00E2E5E2 /* GeoScribe.xcdatamodel */;
+			path = GeoScribe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B0A9FA5829AD79DD00E2E5E2 /* Project object */;
 }
