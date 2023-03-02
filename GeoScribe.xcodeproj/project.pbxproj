@@ -99,12 +99,11 @@
 		B0A9FA6229AD79DE00E2E5E2 /* GeoScribe */ = {
 			isa = PBXGroup;
 			children = (
+				B0A9FA9329B0324000E2E5E2 /* Persistence */,
 				B0A9FA6329AD79DE00E2E5E2 /* GeoScribeApp.swift */,
 				B0A9FA6529AD79DE00E2E5E2 /* ContentView.swift */,
 				B0A9FA6729AD79E500E2E5E2 /* Assets.xcassets */,
 				B0A9FA6929AD79E500E2E5E2 /* GeoScribe.entitlements */,
-				B0A9FA8E29B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld */,
-				B0A9FA9129B02C2000E2E5E2 /* DataController.swift */,
 				B0A9FA6A29AD79E500E2E5E2 /* Preview Content */,
 			);
 			path = GeoScribe;
@@ -133,6 +132,15 @@
 				B0A9FA8129AD79E500E2E5E2 /* GeoScribeUITestsLaunchTests.swift */,
 			);
 			path = GeoScribeUITests;
+			sourceTree = "<group>";
+		};
+		B0A9FA9329B0324000E2E5E2 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				B0A9FA9129B02C2000E2E5E2 /* DataController.swift */,
+				B0A9FA8E29B02ABD00E2E5E2 /* GeoScribe.xcdatamodeld */,
+			);
+			path = Persistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
